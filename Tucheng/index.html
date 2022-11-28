@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>土城區</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div style="text-align:center; background-color:cornflowerblue; width:1425px; height:250px">
+    <span style="font-size:1.2cm; font-family:serif; line-height:250px;">板南線：土城區</span>
+</div>
+
+<div class="h1">
+<h1><a href="#1">海山</a></h1>
+<h1><a href="#2">土城</a></h1>
+<h1><a href="#3">永寧</a></h1>
+<h1><a href="#4">頂埔</a></h1>
+</div>
+
+<div class="content">
+<a name="1"></a>
+<h2>海山站：斬龍山遺址</h2>
+<h4>位處河川與山丘的交界處高地，距今已有2800年-2300年的歷史，屬於新石器時代的圓山文化類型。
+    斬龍山遺址的文物以打磨石器與紋飾陶器為主，採現地保存的方式留存於公園內，以陶器上的紋飾為設計元素在公園開放區域豎立了數座遺址解說板，帶領遊客穿梭千年。</h4>
+<img src="" alt="斬龍山遺址" width="800px" height="500px">
+<p> 圖片來源：</p>
+
+<a name="2"></a>
+<h2>土城站：義塚大墓公</h2>
+<h4>原稱難民萬善同歸墓，又稱擺接義塚大墓公，俗稱土城大墓公、大墓公，是北臺灣的著名墳墓與有應公廟。
+    據說清領時期土城、板橋一帶原住民時來搶奪漢人金錢、糧食，而鄉民祭祀義塚大墓公均能得到庇佑而擊退原住民，故當地開墾者以佃農田租作為香火錢，香火鼎盛，為土城、中和、板橋的閩南漳洲人後裔的共同信仰中心。</h4>
+<img src="" alt="義塚大墓公" width="800px" height="500px">
+<p>圖片來源：</p>
+
+<a name="3"></a>
+<h2>永寧站：天上山系步道支線-賞桐步道</h2>
+<h4>每逢4～5月期間，潔白如雪的桐花灑滿步道，彷彿一條漫長的學白地毯平鋪而成，土城區公所舉辦了一系列的桐花節活動，展開了不同型態的活動內容，
+    包括桐花踩街、採茶體驗及客家山歌演唱、當地特色小吃、桐花藝文DIY等，並邀請當地及各地區傑出團體來表演，讓民眾除了爬步道之餘，還可以欣賞桐花，一同共享這場油桐花海的盛宴。</h4>
+<img src="" alt="賞桐步道" width="800px" height="500px">
+<p> 圖片來源：</p>
+
+<a name="4"></a>
+<h2>頂埔站：</h2>
+<h4></h4>
+<img src="" alt="" width="800px" height="500px">
+
+
+<h6>以上文字資料來源：
+    <br>https://newtaipei.travel/zh-tw
+    <br>
+    <br>
+    <br>
+</h6>
+
+</div>
+
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+
+<script>
+    $(function(){
+        $('#BackTop').click(function(){ 
+            $('html,body').animate({scrollTop:0}, 333);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300 ){
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+</script>
+
+</body>
+
+</html>
